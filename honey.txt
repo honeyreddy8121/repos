@@ -1,0 +1,500 @@
+    7  ls
+    8  vi a
+    9  git add --all
+   10  git commit --all
+   11  ls
+   12  git remote add origin https://github.com/honeyreddy8121/google-project.git
+   13  git push -u origin master
+   14  rm -rf google-project/
+   15  ls
+   16  git remote add origin https://github.com/honeyreddy8121/google-project.git
+   17  git push -u origin master
+   18  git branch
+   19  find / -name .git
+   20  cd /C/Users/
+   21  ls
+   22  cd Public/
+   23  ls
+   24  cd ..
+   25  ls
+   26  cd ivred/
+   27  ls
+   28  ls -lart
+   29  git push -u origin master
+   30  cd .git
+   31  ls
+   32  cd refs/
+   33  ls
+   34  cd heads/
+   35  ls
+   36  cd ../tags/
+   37  ls
+   38  cd ../..'
+   39  cd ../..
+   40  ls
+   41  git branch dev
+   42  ls
+   43  cd objects/
+   44  ls
+   45  cd info/
+   46  ls
+   47  cd ../..
+   48  ls
+   49  cd info/
+   50  ls
+   51  git log
+   52  git checkout master
+   53  tree
+   54  cd 
+   55  mkdir git
+   56  cd git/
+   57  git init
+   58  touch sample
+   59  git add sample 
+   60  git commit -m "new"
+   61  git push -u origin master
+   62  git remote add origin https://github.com/honeyreddy8121/google-project.git
+   63  git push -u origin master
+   64  git remote show origin
+   65  ls
+   66  cd sample 
+   67  ls
+   68  cd
+   69  cd .git
+   70  ls
+   71  mkdir new
+   72  cd new
+   73  git init
+   74  cd .git/
+   75  ls
+   76  cd ..
+   77  ls
+   78  touch sample
+   79  git add sample
+   80  git commit -m "new"
+   81  git remote add origin https://github.com/honeyreddy8121/google-project.git
+   82  git push -u origin master
+   83  git remote add origin https://github.com/honeyreddy8121/google-project.git
+   84  git remote show origin
+   85  git branch
+   86  git checkout master
+   87  git branch dev
+   88  git checkout dev
+   89  git push -u origin dev
+   90  git log
+   91  git remote set-url origin git@github.com:honeyreddy8121/google-project.git
+   92  git push -u origin dev
+   93  git remote set-url origin https://github.com/honeyreddy8121/google-project.git
+   94  git push -u origin dev
+   95  git push -u origin dev
+   96  cd .git
+   97  ls
+   98  cd ..
+   99  cd ..
+  100  cd new/
+  101  cd ..
+  102  mkdir honeyreddy
+  103  cd honeyreddy
+  104  git init
+  105  vi go
+  106  git add go 
+  107  git commit -m "go"
+  108  git remote add origin https://github.com/honeyreddy8121/google-project.git
+  109  git push origin master
+  110  git pull
+  111  git pull master
+  112  clear 
+  113  git pull origin master
+  114  clear
+  115  vagrant init
+  116  notepad Vagrantfile
+  117  mkdir honey
+  118  mkdir honey1
+  119  cd honey1
+  120  ls
+  121  ls -a
+  122  clear
+  123  vagrant init
+  124  ls
+  125  vagrant init
+  126  vagrant init google
+  127  vagrant init hashicorp/bionic64
+  128  mkdir h
+  129  cd h
+  130  vagrant init hashicorp/bionic64
+  131  ls
+  132  clear
+  133  ls
+  134  vagrant init -f hashicorp/bionic64
+  135  ls
+  136  vagrant init hashicorp/bionic64
+  137  vagrant init -f hashicorp/bionic64
+  138  clear
+  139  vagrant init -m
+  140  clear
+  141  notepad Vagrantfile 
+  142  rm -rf Vagrantfile 
+  143  ls
+  144  vagrant init -m
+  145  notepad Vagrantfile 
+  146  vagrant init --box-version
+  147  vagrant init --output FILE
+  148  notepad Vagrantfile 
+  149  vagrant box
+  150  vagrant box add 
+  151  notepad Vagrantfile 
+  152  vagrant powershell
+  153  cd ..
+  154  cd ..
+  155  ls
+  156  cd devops/
+  157  ls
+  158  notepad Vagrantfile 
+  159  clear
+  160  vagrant destroy puppet reddy1 uppi1 ram1 pup
+  161  vagrant destroy reddy1 uppi1 ram1 pup
+  162  vagrant init
+  163  vagrantup
+  164  vagrant up
+  165  vagrant init
+  166  notepad Vagrantfile 
+  167  clear
+  168  vagrant up
+  169  vagrant powershell
+  170  vagrant ssh red
+  171  vagrant powershell red
+  172  vagrant ssh red
+  173  vagrant powershell red
+  174  cler
+  175  clear
+  176  vagrant powershell red
+  177  vagrant status
+  178  vagrant halt pup
+  179  vagrant status
+  180  vagrant status [red]
+  181  vagrant status red
+  182  clear
+  183  vagrant status
+  184  notepad Vagrantfile 
+  185  vagrant status ra
+  186  vagrant suspend ra
+  187  vagrant status ra
+  188  vagrant up
+  189  clear
+  190  vagrant halt
+  191  vagrant status
+  192  vagrant up
+  193  clear
+  194  vagrant status
+  195  vagrant halt pup
+  196  vagrant status
+  197  clear
+  198  vagrant destroy
+  199  vagrant destroy ra
+  200  vagrant destroy -f ra
+  201  clear
+  202  vagrant global -status
+  203  vagrant global-status
+  204  clear
+  205  vagrant plugin
+  206  vagrant plugin expunge
+  207  vagrant plugin install
+  208  vagrant plugin install --entry-point Vagrantfile 
+  209  vagrant plugin install --local
+  210  notepad Vagrantfile 
+  211  clear
+  212  vagrant port
+  213  vagrant port red
+  214  vagrant port up
+  215  vagrant port up red
+  216  clear
+  217  clear
+  218  vagrant suspend red
+  219  vagrant status red
+  220  vagrant resume red
+  221  vagrant provision red
+  222  vagrant provision
+  223  vagrant resume
+  224  clear
+  225  vagrant status red
+  226  vagrant suspend red
+  227  vagrant status red
+  228  vagrant resume red
+  229  vagrant status red
+  230  clear
+  231  vagrant share
+  232  vagrant share --http
+  233  vagrant list-commands
+  234  clear
+  235  vagrant rdp
+  236  vagrant rdp red
+  237  vagrant rdp red -p 22
+  238  vagrant rdp red -p 22clear
+  239  clear
+  240  notepad Vagrantfile 
+  241  vagrant rdp 192.168.56.91
+  242  vagrant global-status red
+  243  vagrant rdp 624a1ea 
+  244  clear
+  245  vagrant halt 624a1ea
+  246  vagrant status red
+  247  clear
+  248  vagrant plugin vagrant-share
+  249  vagrant plugin install vagrant-share
+  250  vagrant share --http
+  251  vagrant connect --ssh
+  252  clear
+  253  vagrant connect
+  254  vagrant connect upendra
+  255  clear
+  256  vagrant connect --ssh red
+  257  clear
+  258  vagrant port up
+  259  vagrant provision
+  260  vagrant up
+  261  clear
+  262  vagrant box ubuntu
+  263  vagrant box add ubuntu
+  264  vagrant box add virtualbox
+  265  vagrant box add oracle
+  266  clear
+  267  vagrant snapshots
+  268  vagrant snapshot
+  269  vagrant snapshot save 
+  270  vagrant snapshot save red
+  271  vagrant snapshot restore red
+  272  clear
+  273  vagrant snapshot restore pup
+  274  clear
+  275  vagrant snapshot push red
+  276  vagrant snapshot pop red
+  277  clear
+  278  clear
+  279  vagrant provision
+  280  vagrant provision red
+  281  clear
+  282  vagrant provision up
+  283  ls
+  284  notepad Vagrantfile 
+  285  vagrant package --vagrantfile Vagrantfile 
+  286  vagrant package --vagrantfile red
+  287  vagrant package red
+  288  vagrant box add  C:/Users/ivred/devops/package.box
+  289  vagrant box add -h
+  290  cd mydir/
+  291  vagrant ssh machine2
+  292  vagrant ssh machine3
+  293  vagrant ssh machine2
+  294  vagrant ssh machine3
+  295  ls
+  296  notepad Vagrantfile 
+  297  vagrantup
+  298  vagrantup
+  299  vagrant up
+  300  clear
+  301  vagrant ssh machine4
+  302  vagrant ssh machine5
+  303  vagrant ssh machine4
+  304  cd devops/
+  305  clear
+  306  cd ..
+  307  mkdir mydir
+  308  cd mydir/
+  309  vagrant init -m
+  310  ls
+  311  notepad Vagrantfile 
+  312  vagrantup
+  313  vagrant up
+  314  notepad Vagrantfile 
+  315  rm -rf Vagrantfile 
+  316  vagrant init -m
+  317  notepad Vagrantfile 
+  318  vagrant up
+  319  notepad Vagrantfile 
+  320  vagrant up
+  321  notepad v
+  322  notepad Vagrantfile 
+  323  vagrant ssh machine1
+  324  vagrant ssh machine2
+  325  vagrant ssh machine3
+  326  vagrant ssh machine1
+  327  clear
+  328  vagrant ssh machine2
+  329  vagrant ssh machine1
+  330  ls
+  331  clear
+  332  ls
+  333  clear
+  334  clear
+  335  clear
+  336  mkdir codegit
+  337  cd codegit/
+  338  ls -a
+  339  git init
+  340  ls -a
+  341  clear
+  342  vi file1.java
+  343  git add file1.java 
+  344  git commit -m "added"
+  345  clear
+  346  ls -a
+  347  cd .git
+  348  ls
+  349  cvi COMMIT_EDITMSG 
+  350  vi COMMIT_EDITMSG 
+  351  clear
+  352  cd ..
+  353  ls
+  354  vi file1.java 
+  355  cat file1.java 
+  356  commit -m "today i have changed at specific"
+  357  git commit -m "today i have changed at specific"
+  358  vi file2.java
+  359  touch file3.java file4.java
+  360  clear
+  361  ls -a
+  362  vi file1.java 
+  363  vi file2.java 
+  364  git commit -m "hi"
+  365  git diff
+  366  vi file2.java 
+  367  git diff
+  368  git status
+  369  git commit -m "again added"
+  370  git diff
+  371  git commit file1.java file2.java -m "both" 
+  372  git commit file2.java -m "both" 
+  373  clear
+  374  git commit -m "both" 
+  375  git add file1.java 
+  376  git add --all
+  377  git add file2.java 
+  378  git commit -m "both"
+  379  git diff
+  380  git status
+  381  vi file3.java 
+  382  git diff
+  383  git commit -m" "
+  384  git diff
+  385  clear
+  386  git commit -m "add 3"
+  387  git diif
+  388  git diff
+  389  cleasr
+  390  clear
+  391  git add file3.java 
+  392  git diff
+  393  git commit -m "latest"
+  394  cat file3.java 
+  395  vi file4.java 
+  396  git diiff
+  397  git diif
+  398  git diff
+  399  clear
+  400  vi file4.java 
+  401  git diff
+  402  vi file4.java 
+  403  git diff
+  404  vi file4.java 
+  405  git diff
+  406  vi file4.java 
+  407  git diff
+  408  vi file4.java 
+  409  git diff
+  410  vi file4.java 
+  411  git diff
+  412  vi file4.java 
+  413  git diff
+  414  clear
+  415  git log
+  416  vi file4.java 
+  417  git diff
+  418  git commit -a -m "no spaces"
+  419  git log
+  420  git status
+  421  clear
+  422  vi file4.java 
+  423  git diff
+  424  git status
+  425  git add file4.java 
+  426  git status
+  427  git commit -m "message"
+  428  git status
+  429  git log
+  430  git log --oneline
+  431  clear
+  432  clear
+  433  chmod file1.java 
+  434  clear
+  435  git remote add origin https://github.com/honeyreddy8121/repos.git 
+  436  git push origin master
+  437  git push origin master -f
+  438  clear
+  439  git clone ivred@DESKTOP-OT8SUBA MINGW64 ~/codegit (master)
+  440  $ git remote add origin git https://github.com/honeyreddy8121/repos.git
+  441  git clone https://github.com/honeyreddy8121/repos.git
+  442  ls -a
+  443  cd repos/
+  444  ls
+  445  git diff file1.java
+  446  vi file1.java
+  447  git diff file1.java
+  448  git commit -a -m 
+  449  git commit -a -m " "
+  450  git commit -a -m "add "
+  451  git diff file2.java
+  452  git checkout
+  453  git pretty 
+  454  git --help
+  455  $ git remote add origin git https://github.com/honeyreddy8121/repos.git
+  456  git status
+  457  ls
+  458  cat file1.java
+  459  vi file1.java
+  460  git diff file1.java
+  461  git checkout -b prctice
+  462  ls
+  463  touch file5.java
+  464  ls
+  465  git remote -v
+  466  git add file5.java
+  467  git commit file5.java "5th file"
+  468  git commit -m file5.java "5th file"
+  469  git commit -m "5th file"
+  470  git status
+  471  git push origin practice
+  472  git remote add origin https://github.com/honeyreddy8121/repos.git
+  473  cat file5.java
+  474  vi file5.java
+  475  cat file5.java
+  476  git diff
+  477  git add file5.java
+  478  git commit -m "5th one"
+  479  git merge practice
+  480  ls
+  481  clear
+  482  cd ..
+  483  git checkout -b ram
+  484  touch jur
+  485  git add jur
+  486  git commit -m "ramfile"
+  487  git remote add origin https://github.com/honeyreddy8121/repos.git
+  488  git push origin ram
+  489  cd ..
+  490  ls
+  491  cd ..
+  492  cd codegit
+  493  cd /codegit
+  494  ls
+  495  cd ..
+  496  cd ..
+  497  clear
+  498  ls
+  499  git checkout ram
+  500  git branch ram
+  501  ls
+  502  cd codegit/
+  503  git checkout master
+  504  histrory
+  505  history
+  506  history >> honey.txt
