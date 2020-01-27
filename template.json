@@ -1,0 +1,76 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_honeyvm_name": {
+            "defaultValue": "honeyvm",
+            "type": "String"
+        },
+        "disks_honeyvm_OsDisk_1_fc22bd70dd6048aca385a9b4c6f7237a_externalid": {
+            "defaultValue": "/subscriptions/0a16f815-6d4d-4b09-9b2b-575458aa53de/resourceGroups/RGV/providers/Microsoft.Compute/disks/honeyvm_OsDisk_1_fc22bd70dd6048aca385a9b4c6f7237a",
+            "type": "String"
+        },
+        "networkInterfaces_honeyvm280_externalid": {
+            "defaultValue": "/subscriptions/0a16f815-6d4d-4b09-9b2b-575458aa53de/resourceGroups/RGV/providers/Microsoft.Network/networkInterfaces/honeyvm280",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Compute/virtualMachines",
+            "apiVersion": "2019-07-01",
+            "name": "[parameters('virtualMachines_honeyvm_name')]",
+            "location": "eastus",
+            "properties": {
+                "hardwareProfile": {
+                    "vmSize": "Standard_B1ls"
+                },
+                "storageProfile": {
+                    "imageReference": {
+                        "publisher": "OpenLogic",
+                        "offer": "CentOS",
+                        "sku": "7.7",
+                        "version": "latest"
+                    },
+                    "osDisk": {
+                        "osType": "Linux",
+                        "name": "[concat(parameters('virtualMachines_honeyvm_name'), '_OsDisk_1_fc22bd70dd6048aca385a9b4c6f7237a')]",
+                        "createOption": "FromImage",
+                        "caching": "ReadWrite",
+                        "managedDisk": {
+                            "storageAccountType": "Premium_LRS",
+                            "id": "[parameters('disks_honeyvm_OsDisk_1_fc22bd70dd6048aca385a9b4c6f7237a_externalid')]"
+                        },
+                        "diskSizeGB": 30
+                    },
+                    "dataDisks": []
+                },
+                "osProfile": {
+                    "computerName": "[parameters('virtualMachines_honeyvm_name')]",
+                    "adminUsername": "honey",
+                    "linuxConfiguration": {
+                        "disablePasswordAuthentication": false,
+                        "provisionVMAgent": true
+                    },
+                    "secrets": [],
+                    "allowExtensionOperations": true,
+                    "requireGuestProvisionSignal": true
+                },
+                "networkProfile": {
+                    "networkInterfaces": [
+                        {
+                            "id": "[parameters('networkInterfaces_honeyvm280_externalid')]"
+                        }
+                    ]
+                },
+                "diagnosticsProfile": {
+                    "bootDiagnostics": {
+                        "enabled": true,
+                        "storageUri": "https://rgvdiag.blob.core.windows.net/"
+                    }
+                }
+            }
+        }
+    ]
+}
